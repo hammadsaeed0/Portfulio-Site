@@ -196,3 +196,33 @@ section.cal-to-action p{
     margin-bottom: 2rem;
     font-family: 'Lato';
 }
+section.reviews .slide img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+section.reviews .slide{
+    text-align: center;
+    
+}
+.game{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 12rem;
+    margin-top: -3rem;
+}
+.arrow{
+    display: flex;
+    margin-left: -1.5rem;
+}
+.arrow1{
+    margin-left: 1.6rem;
+}
+section.reviews .slide p{
+    color: var(--ternary);
+    font-family: 'Lato';
+    margin-bottom: 1.5rem;
+}

@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <script src="./JS/app.js" defer></script>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>My Porfolio</title>
+    <style>
+        .mySlides {display:none}
+        .w3-left, .w3-right, .w3-badge {cursor:pointer}
+        .w3-badge {height:13px;width:13px;padding:0}
+        </style>
 </head>
 <body>
     <!-- --------------------------Navbar----------------------- -->
@@ -130,6 +136,35 @@
     <h1>I am Available For Freelancer</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ad similique vel.</p>
     <button class="btn btn-primry">Download CV</button>
+  </section>
+  <!-- ---------------------------Reviews--------------------------- -->
+  <section class="reviews">
+    <div class="container">
+        <h1 class="section-heading"><span>Our</span> Clients</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="w3-content w3-display-container game" style="max-width:800px">
+              <div class="mySlides slide">
+                <img src="./Images/lady.png" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non molestias praesentium itaque repudiandae ullam. Doloribus, non accusantium. Tempore reiciendis temporibus consequatur, impedit velit ea. Asperiores ipsa explicabo maiores praesentium voluptas.</p>
+                <span>Hammad Saeed</span>
+              </div>
+              <div class="mySlides slide">
+                <img src="./Images/" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non molestias praesentium itaque repudiandae ullam. Doloribus, non accusantium. Tempore reiciendis temporibus consequatur, impedit velit ea. Asperiores ipsa explicabo maiores praesentium voluptas.</p>
+                <span>Hammad Saeed</span>
+              </div>
+              <div class="mySlides slide">
+                <img src="./Images/lady.png" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non molestias praesentium itaque repudiandae ullam. Doloribus, non accusantium. Tempore reiciendis temporibus consequatur, impedit velit ea. Asperiores ipsa explicabo maiores praesentium voluptas.</p>
+                <span>Hammad Saeed</span>
+              </div>
+              <div class="arrow">
+                <div class="w3-left w3-hover-text-khaki arrow1" onclick="plusDivs(-1)">&#10094;</div>
+                <div class="w3-right w3-hover-text-khaki arrow1" onclick="plusDivs(1)">&#10095;</div>
+              </div>
+            </div>
+          </div>
+    </div>
   </section>
 </body>
 </html> 
